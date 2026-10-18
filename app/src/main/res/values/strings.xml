@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android_POC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number">number</string>
+    <string name="this_is_my_font_can_you_change_n_this_font_in_one_click_this_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_click">this is my font can you change \n this font in one click this is my font can you change \n this font in one clickthis is my font can you change \n this font in one clickthis is my font can you change \n this font in one clickthis is my font can you change \n this font in one clickthis is my font can you change \n this font in one clickthis is my font can you change \n this font in one click</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+</resources>

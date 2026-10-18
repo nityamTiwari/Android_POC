@@ -1,0 +1,170 @@
+[
+  {
+    "groupId": "TL_TOP",
+    "anchor": "TOP_LEFT",
+    "direction": "HORIZONTAL",
+    "startX": 100,
+    "startY": 40,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "1",
+        "title": "TL-1"
+      },
+      {
+        "id": "2",
+        "title": "TL-2"
+      },
+      {
+        "id": "3",
+        "title": "TL-3"
+      }
+    ]
+  },
+  {
+    "groupId": "TL_LEFT",
+    "anchor": "TOP_LEFT",
+    "direction": "VERTICAL",
+    "startX": 40,
+    "startY": 210,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "4",
+        "title": "TL-4"
+      },
+      {
+        "id": "5",
+        "title": "TL-5"
+      }
+    ]
+  },
+  {
+    "groupId": "TR_TOP",
+    "anchor": "TOP_RIGHT",
+    "direction": "HORIZONTAL",
+    "startX": 40,
+    "startY": 40,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "6",
+        "title": "TR-1"
+      },
+      {
+        "id": "7",
+        "title": "TR-2"
+      },
+      {
+        "id": "8",
+        "title": "TR-3"
+      }
+    ]
+  },
+  {
+    "groupId": "TR_RIGHT",
+    "anchor": "TOP_RIGHT",
+    "direction": "VERTICAL",
+    "startX": 40,
+    "startY": 210,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "9",
+        "title": "TR-4"
+      },
+      {
+        "id": "10",
+        "title": "TR-5"
+      },
+      {
+        "id": "11",
+        "title": "TR-6"
+      }
+    ]
+  },
+  {
+    "groupId": "BL_LEFT",
+    "anchor": "BOTTOM_LEFT",
+    "direction": "VERTICAL",
+    "startX": 40,
+    "startY": 210,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "12",
+        "title": "BL-1"
+      },
+      {
+        "id": "13",
+        "title": "BL-2"
+      }
+    ]
+  },
+  {
+    "groupId": "BL_BOTTOM",
+    "anchor": "BOTTOM_LEFT",
+    "direction": "HORIZONTAL",
+    "startX": 40,
+    "startY": 40,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "14",
+        "title": "BL-3"
+      },
+      {
+        "id": "15",
+        "title": "BL-4"
+      },
+      {
+        "id": "16",
+        "title": "BL-5"
+      }
+    ]
+  },
+  {
+    "groupId": "BR_RIGHT",
+    "anchor": "BOTTOM_RIGHT",
+    "direction": "VERTICAL",
+    "startX": 40,
+    "startY": 210,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "17",
+        "title": "BR-1"
+      },
+      {
+        "id": "18",
+        "title": "BR-2"
+      },
+      {
+        "id": "19",
+        "title": "BR-3"
+      }
+    ]
+  },
+  {
+    "groupId": "BR_BOTTOM",
+    "anchor": "BOTTOM_RIGHT",
+    "direction": "HORIZONTAL",
+    "startX": 40,
+    "startY": 40,
+    "spacing": 25,
+    "buttons": [
+      {
+        "id": "20",
+        "title": "BR-4"
+      },
+      {
+        "id": "21",
+        "title": "BR-5"
+      },
+      {
+        "id": "22",
+        "title": "BR-6"
+      }
+    ]
+  }
+]

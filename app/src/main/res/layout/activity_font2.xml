@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical"
+    tools:context=".activity.PermissionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn_font1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_font2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 2"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_font3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 3"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn_font4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_font5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 5"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_font6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="font 6"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/this_is_my_font_can_you_change_n_this_font_in_one_click_this_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_clickthis_is_my_font_can_you_change_n_this_font_in_one_click"
+                android:textSize="20sp"/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

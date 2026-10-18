@@ -1,0 +1,132 @@
+{
+  "layout_configuration": {
+    "global_corner_margin_dp": 200,
+    "global_button_spacing_dp": 20,
+
+    "corner_overrides": {
+      "top_left": {
+        "horizontal_margin_dp": 20,
+        "vertical_margin_dp": 20,
+        "horizontal_spacing_dp": 20,
+        "vertical_spacing_dp": 23
+      },
+      "top_right": {
+        "horizontal_margin_dp": 16,
+        "vertical_margin_dp": 30,
+        "horizontal_spacing_dp": 12,
+        "vertical_spacing_dp": 12
+      },
+      "bottom_left": {
+        "horizontal_margin_dp": 16,
+        "vertical_margin_dp": 30,
+        "horizontal_spacing_dp": 12,
+        "vertical_spacing_dp": 12
+      },
+      "bottom_right": {
+        "horizontal_margin_dp": 40,
+        "vertical_margin_dp": 80,
+        "horizontal_spacing_dp": 12,
+        "vertical_spacing_dp": 120
+      }
+    }
+  },
+  "floating_buttons": [
+    {
+      "id": "btn_tl_h0",
+      "icon_url": "ic_profile",
+      "action_type": "NAVIGATE_PROFILE",
+      "corner": "top_left",
+      "direction": "horizontal",
+      "index": 0
+    },
+    {
+      "id": "btn_tl_h1",
+      "icon_url": "ic_settings",
+      "action_type": "OPEN_SETTINGS",
+      "corner": "top_left",
+      "direction": "horizontal",
+      "index": 1
+    },
+    {
+      "id": "btn_tl_v1",
+      "icon_url": "ic_notification",
+      "action_type": "SHOW_NOTIFS",
+      "corner": "top_left",
+      "direction": "vertical",
+      "index": 1
+    },
+    {
+      "id": "btn_tr_h0",
+      "icon_url": "ic_search",
+      "action_type": "TRIGGER_SEARCH",
+      "corner": "top_right",
+      "direction": "horizontal",
+      "index": 0
+    },
+    {
+      "id": "btn_tr_h1",
+      "icon_url": "ic_filter",
+      "action_type": "OPEN_FILTERS",
+      "corner": "top_right",
+      "direction": "horizontal",
+      "index": 1
+    },
+    {
+      "id": "btn_tr_v1",
+      "icon_url": "ic_help",
+      "action_type": "SHOW_HELP",
+      "corner": "top_right",
+      "direction": "vertical",
+      "index": 1
+    },
+    {
+      "id": "btn_bl_h0",
+      "icon_url": "ic_home",
+      "action_type": "GO_HOME",
+      "corner": "bottom_left",
+      "direction": "horizontal",
+      "index": 0
+    },
+    {
+      "id": "btn_bl_v1",
+      "icon_url": "ic_menu",
+      "action_type": "OPEN_MENU",
+      "corner": "bottom_left",
+      "direction": "vertical",
+      "index": 1
+    },
+    {
+      "id": "btn_bl_v2",
+      "icon_url": "ic_history",
+      "action_type": "OPEN_HISTORY",
+      "corner": "bottom_left",
+      "direction": "vertical",
+      "index": 2
+    },
+    {
+      "id": "btn_bl_v2",
+      "icon_url": "ic_history",
+      "action_type": "OPEN_HISTORY",
+      "corner": "bottom_left",
+      "direction": "horizontal",
+      "index": 2
+    },
+    {
+      "id": "btn_bl_v2",
+      "icon_url": "ic_history",
+      "action_type": "ooo",
+      "corner": "bottom_left",
+      "direction": "horizontal",
+      "index": 1
+    },
+    {
+      "id": "btn_br_h0",
+      "icon_url": "ic_cart",
+      "action_type": "OPEN_CART",
+      "corner": "bottom_right",
+      "direction": "vertical",
+      "index": 0
+    }
+
+  ]
+}
