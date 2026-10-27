@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Command & Tag POC</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            margin: 12px 0;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            background: #1565c0;
+            color: white;
+        }
+
+        #output {
+            margin-top: 20px;
+            padding: 12px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            min-height: 100px;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Command & Tag POC</h1>
+<p>Test communication between JavaScript and Android.</p>
+
+<button onclick="sendPing()">Ping Android</button>
+<button onclick="sendEcho()">Echo Payload</button>
+<button onclick="sendDeviceInfo()">Device Info</button>
+
+<h3>Response</h3>
+<div id="output">Waiting for a command...</div>
+
+<script>
+    function sendPing() {
+        AndroidKiosk.execute(
+            "ping",
+            "{}",
+            "ping-000000"
+        );
+    }
+
+    function sendEcho() {
+        const payload = JSON.stringify({
+            message: "Hello from JavaScript",
+            number: 123
+        });
+
+        AndroidKiosk.execute(
+            "echo",
+            payload,
+            "echo-001"
+        );
+    }
+
+    function sendDeviceInfo() {
+        AndroidKiosk.execute(
+            "device_info",
+            "{}",
+            "device-001"
+        );
+    }
+
+    window.onKioskResponse = function(
+        command,
+        data,
+        executeTag
+    ) {
+        const output = document.getElementById("output");
+        console.log(data);
+
+        output.textContent =
+            "Command: " + command + "\n" +
+            "Data: " + data + "\n" +
+            "Execute Tag: " + executeTag;
+    };
+</script>
+
+</body>
+</html>

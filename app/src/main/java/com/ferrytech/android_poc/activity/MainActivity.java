@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
         arrayContacts.add(new AndroidModel(" Dynamic Floating Button - Array ", DynamicFloatingButton.class));
         arrayContacts.add(new AndroidModel("New Jetpack Compose Feature", NewFeatureActivity.class));
         arrayContacts.add(new AndroidModel("Flip Book Poc", FlipBookActivity.class));
+        arrayContacts.add(new AndroidModel("WEBVIEW BRIDGE", WebViewActivity.class));
+
 
 
 //      arrayContacts.add(new AndroidModel("Banner Using API", CallbackActivity.class));
